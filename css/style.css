@@ -79,14 +79,14 @@ header {
 }
 
 .business {
-    
     /* debug */
     background-color: yellow;
 }
 
 .col {
-    /* debug */
     width: calc(100% / 3 - 30px);
+    margin-top: 40px;
+    /* debug */
     border: 2px solid green;
 }
 
@@ -117,3 +117,71 @@ header {
     border: 2px solid green;
 }
 /* END PARTNER SECTION */
+
+/* START TEAM SECTION */
+.team-user {
+    margin-bottom: 50px;
+}
+a.underlined {
+    text-decoration: underline;
+    color: blue;
+}
+/* END TEAM SECTION */
+
+/* START SPONSOR SECTION */
+.sponsor {
+    width: 100% ;
+    margin-top: 150px;
+    display: flex;
+    /* debug */
+    height: 600px;
+    background-color: blue;
+}
+
+.sponsor-box {
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+    /* debug */
+    height: 100%;
+    border: 2px solid green;
+}
+
+.square {
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    /* debug */
+    border: 2px solid yellow;
+    
+}
+/* END SPONSOR SECTION */
+
+/* START PROVA SECTION */
+.prova-gratuita {
+    /* debug */
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.prova {
+    display: flex;
+    justify-content: space-between;
+}
+/* END PROVA SECTION */
+/* START QUEST SECTION */
+.quest-title {
+    margin-bottom: 70px;
+}
+
+.quest > li {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* END QUEST SECTION */
+/* START FOOTER SECTION */
+footer {
+    background-color: black;
+    color: white;
+    /* debug */
+    height: 500px;
+}
