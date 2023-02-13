@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
     list-style: none;
     
 }
@@ -26,23 +25,45 @@ img {
     padding-top: 150px;
 }
 
+.button {
+    color: white;
+    background-color: #0061FF;
+    padding: 5px 15px;
+}
+
 /* HEADER START */
 header {
     width: 100%;
     height: 80px;
     position: fixed;
+    z-index: 1;
     display: flex;
     justify-content: space-between;
-    /* debug */
-    background-color: red;
+    background-color: white;
 }
 
 .head {
-    width: 30%;
+    width: 40%;
     display: flex;
-    /* debug */
-    height: 80px;
-    background-color: green;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.first-list {
+    display: flex;
+    align-items: center;
+}
+
+.second-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+ul > li {
+    margin:0 20px;
 }
 /* HEADER END */
 
@@ -53,17 +74,47 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 80px;
-    /* dubug */
+    background-color:#B4D0E7;
+    padding-bottom: 20px;
     height: 800px;
-    background-color: rgb(97, 27, 163);
 }
 
 .jumbo-content {
     width: 60%;
     margin-top: 80px;
-    /* debug */
-    background-color: brown;
 }
+
+.jumbo-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.jumbo-text {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.jumbo-img {
+    width: 70%;
+    position: relative;
+}
+
+#immage-jumbo {
+    position: absolute;
+   
+}
+
+i {
+    font-size: 4rem;
+}
+
+.main-title {
+    font-size: 4.7rem;
+    font-weight: 800;
+}
+
 /* END JUMBOTRON */
 
 /* BUSINESS SECTION */
