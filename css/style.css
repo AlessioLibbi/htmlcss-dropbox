@@ -245,43 +245,98 @@ a.underlined {
     margin-top: 150px;
     display: flex;
     /* debug */
-    height: 600px;
-    background-color: blue;
 }
 
 .sponsor-box {
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-    /* debug */
-    height: 100%;
-    border: 2px solid green;
+}
+
+.sponsor-text {
+    position: relative;
+    bottom: 150px;
+}
+
+.middle {
+    background-color: #F5F5F5;
+    padding: 40px;
 }
 
 .square {
     width: calc(100% / 2);
     height: calc(100% / 2);
-    /* debug */
-    border: 2px solid yellow;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.factory {
+    width: 50%;
+    height: 50%;
+    filter: invert();
+}
+
+.factory-mid {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    bottom: 70px;
+}
+
+.green {
+    background-color: #A2D39B;
+}
+.brown {
+    background-color: #61082B;
+}
+.cian {
+   background-color: #0093CE;
+}
+.red {
+    background-color: #FF1C1C;
+}
+.lightblue {
+    background-color: #B4D0E7;
+}
+.blue {
+    background-color: #0D2481;
+}
+.yellow {
+    background-color: #FFD830;
 }
 /* END SPONSOR SECTION */
 
 /* START PROVA SECTION */
 .prova-gratuita {
     /* debug */
-    height: 300px;
-    background-color: aquamarine;
+    height: 400px;
+    background-color: #B4D0E7;
+}
+.prova h3 {
+    color: #61082B;
+}
+
+.buttonz {
+    background-color: white;
+    padding: 10px  30px;
 }
 
 .prova {
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 /* END PROVA SECTION */
 /* START QUEST SECTION */
 .quest-title {
     margin-bottom: 70px;
+    
+}
+
+.quest-list:last-child {
+    margin-bottom: 140px;
 }
 
 .quest > li {
@@ -295,4 +350,17 @@ footer {
     color: white;
     /* debug */
     height: 500px;
+}
+
+.foot {
+    display: flex;
+}
+
+.table {
+    width: calc(100% / 5);
+    
+}
+
+.foot-ul li {
+    padding: 10px;
 }
