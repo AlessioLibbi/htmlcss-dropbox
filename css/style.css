@@ -212,12 +212,22 @@ i {
     padding: 10px 0px;
 }
 
+.partner-text p {
+    margin-bottom: 40px;
+}
+
 .buz-white {
     border: 1px solid black;
     padding: 10px;
     
 }
 /* END PARTNER SECTION */
+
+/* START OPERATION SECTION */
+.operation {
+    text-align: left;
+    border: none;
+}
 
 /* START TEAM SECTION */
 .team-user {
