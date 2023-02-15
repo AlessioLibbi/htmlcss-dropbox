@@ -25,10 +25,14 @@ img {
     padding-top: 150px;
 }
 
-.button {
+.button-blue {
     color: white;
     background-color: #0061FF;
     padding: 5px 15px;
+}
+
+.button-blue:hover {
+    background-color: #6198f0;
 }
 
 h3 {
@@ -44,6 +48,12 @@ h4 {
     padding: 0;
     width: 20%;
     color: lightgray;
+    margin: 30px;
+}
+
+i {
+    font-size: 1rem;
+    margin-right: 7px;
 }
 
 /* HEADER START */
@@ -91,7 +101,6 @@ header  ul > li {
     padding-top: 80px;
     background-color:#B4D0E7;
     padding-bottom: 20px;
-    height: 800px;
 }
 
 .jumbo-content {
@@ -106,9 +115,18 @@ header  ul > li {
 
 .jumbo-text {
     width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 30px;
+}
+
+.jumbo-text i {
+    font-size: 3rem;
+}
+
+.jumbo-text p {
+    padding-bottom: 30px;
+}
+
+#mg-top {
+    margin-top: 30px;
 }
 
 .jumbo-img {
@@ -119,11 +137,6 @@ header  ul > li {
 #immage-jumbo {
     position: absolute;
    
-}
-
-i {
-    font-size: 1rem;
-    margin-right: 7px;
 }
 
 .main-title {
@@ -165,17 +178,29 @@ i {
     border: 1px solid lightgray; 
 }
 
+.col .button-blue {
+    padding: 5px 15px;
+}
+
+.col li {
+    font-size: .9rem;
+}
+
+.col .button-blue {
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+}
 
 .col-horizzontal a {
     position: relative;
-    left: 350px;
+    left: 300px;
     bottom: 150px;
 }
 
 .col-horizzontal .col-text * {
     padding: 20px;
 }
-
 
 .ceckbox {
     margin-top: 30px;
@@ -188,6 +213,11 @@ i {
 .col-text {
     text-align: left;
     margin: 0 20px;
+}
+
+.fa-check:before {
+    content: "\f00c";
+    color: blue;
 }
 
 /* END BUSINESS SECTION */
@@ -203,12 +233,11 @@ i {
 
 .partner-text {
     width: 40%;
-    margin-top: 70px;
     padding: 20px 50px;
     text-align: left;
 }
 
-.partner-text  h4, p {
+.partner-text  h4 p {
     padding: 10px 0px;
 }
 
@@ -220,6 +249,10 @@ i {
     border: 1px solid black;
     padding: 10px;
     
+}
+
+.buz-white:hover {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 /* END PARTNER SECTION */
 
@@ -257,6 +290,10 @@ a.underlined {
 .sponsor-text {
     position: relative;
     bottom: 150px;
+}
+
+.sponsor-text p {
+    margin-top: 40px;
 }
 
 .middle {
@@ -323,6 +360,10 @@ a.underlined {
     padding: 10px  30px;
 }
 
+.buttonz:hover {
+    background-color: gray;
+}
+
 .prova {
     display: flex;
     justify-content: space-between;
@@ -342,16 +383,36 @@ a.underlined {
 .quest > li {
     margin-top: 30px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.quest > li:hover p {
+    display: block;
+}
+
+.quest > li:hover i {
+    rotate: 180deg;
+}
+
+.text-inv {
+    padding-top: 20px;
+    display: none;
 }
 /* END QUEST SECTION */
 /* START FOOTER SECTION */
-footer {
+.footer {
     background-color: black;
     color: white;
     /* debug */
     height: 500px;
 }
-
+.container-big {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
 .foot {
     display: flex;
 }
@@ -364,3 +425,4 @@ footer {
 .foot-ul li {
     padding: 10px;
 }
+
